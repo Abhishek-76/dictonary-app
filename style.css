@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+*:not(i) {
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: rgb(148, 83, 210);
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #ffff;
+  border-radius: 10px;
+}
+.searchbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
